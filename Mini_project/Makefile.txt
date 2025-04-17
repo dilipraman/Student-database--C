@@ -1,0 +1,24 @@
+outfile : main.o print.o insert.o file.o reverse.o delete.o modify.o sort.o other.o exit.o
+        cc main.o print.o insert.o file.o reverse.o delete.o modify.o sort.o other.o exit.o  -o outfile
+main.o : main.c
+        cc -c main.c
+print.o : print.c
+        cc -c print.c
+insert.o : insert.c
+        cc -c insert.c
+file.o : file.c
+        cc -c file.c
+reverse.o : reverse.c
+        cc -c reverse.c
+delete.o : delete.c
+        cc -c delete.c
+modify.o : modify.c
+        cc -c modify.c
+sort.o : sort.c
+        cc -c sort.c
+other.o : other.c
+        cc -c other.c
+exit.o : exit.c
+        cc -c exit.c
+clear :
+        @rm -f *.o
