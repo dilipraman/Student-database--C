@@ -39,13 +39,6 @@ k/K : Read data from file
   - `name` (String)
   - `percentage` (Float)
 
-### 🖥️ How to Compile and Run
-
-```bash
-gcc main.c delete.c -o student_records
-./student_records
-```
-
 ### 🎯 Usage
 
 This project is ideal for beginners learning:
